@@ -1,0 +1,29 @@
+{
+  "name": "pomodoro-timer",
+  "title": "Pomodoro Timer",
+  "description": "A simple pomodoro timer",
+  "icon": "command-icon.png",
+  "author": "your-name",
+  "categories": ["Productivity"],
+  "license": "MIT",
+  "permissions": ["notification"],
+  "commands": [
+    {
+      "name": "index",
+      "title": "Pomodoro Timer",
+      "description": "Start a pomodoro timer",
+      "mode": "view"
+    }
+  ],
+  "main": "src/index.tsx",
+  "scripts": {
+    "build": "npx @raycast/api@latest build -e dist",
+    "dev": "npx @raycast/api@latest develop",
+    "lint": "npx @raycast/api@latest lint",
+    "publish": "npx @raycast/api@latest publish"
+  },
+  "dependencies": {
+    "@raycast/api": "^1.40.0",
+    "canvas-confetti": "^1.6.0"
+  }
+}
