@@ -42,7 +42,6 @@ export default function Command() {
           <Action.SubmitForm
             title="タイマーを開始"
             onSubmit={() => startTimer()}
-            disabled={isTimerRunning}
           />
         </ActionPanel>
       }
