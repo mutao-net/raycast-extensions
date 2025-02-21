@@ -3,10 +3,14 @@
   "title": "Pomodoro Timer",
   "description": "A simple pomodoro timer",
   "icon": "command-icon.png",
-  "author": "your-name",
-  "categories": ["Productivity"],
+  "author": "mutao",
+  "categories": [
+    "Productivity"
+  ],
   "license": "MIT",
-  "permissions": ["notification"],
+  "permissions": [
+    "notification"
+  ],
   "commands": [
     {
       "name": "index",
@@ -24,6 +28,12 @@
   },
   "dependencies": {
     "@raycast/api": "^1.40.0",
-    "canvas-confetti": "^1.6.0"
+    "canvas-confetti": "^1.6.0",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^1.0.11",
+    "eslint": "^8.57.1",
+    "prettier": "^3.5.1"
   }
 }
